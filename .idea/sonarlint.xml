@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SonarLintProjectSettings">
     <option name="bindingEnabled" value="true" />
-    <option name="projectKey" value="FlavioGodwosen_bvb-brasil" />
+    <option name="projectKey" value="testeAppium" />
     <option name="serverId" value="sonar conexão" />
   </component>
 </project>
