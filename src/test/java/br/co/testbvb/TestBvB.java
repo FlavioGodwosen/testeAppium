@@ -3,6 +3,7 @@ package br.co.testbvb;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
+import org.junit.rules.Timeout;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
@@ -21,9 +22,9 @@ public class TestBvB {
 
         AndroidDriver driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), desiredCapabilities);
 
-        MobileElement el3;
-        el3 = (MobileElement) driver.findElementById("com.bvbbr.bvb_brasil:id/Bundesliga");
-        el3.click();
+        //MobileElement el3;
+        //el3 = (MobileElement) driver.findElementById("com.bvbbr.bvb_brasil:id/Bundesliga");
+        //el3.click();
 
         driver.quit();
     }
