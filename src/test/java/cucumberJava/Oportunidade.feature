@@ -1,14 +1,14 @@
 #language:pt
 
-  Funcionalidade: Verificar botão do Login
+Funcionalidade: Verificar botão do Login
 
 
   Cenário: Verificar a funcionalidade de login existe
 
-  Dado que eu abri o navegador
+    Dado que eu abri o navegador
 
-  Quando abro o site do Facebook
+    Quando abro o site do Facebook
 
-  Então O botão Login deve sair
+    Então O botão Login deve sair
 
 
